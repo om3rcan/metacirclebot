@@ -1,0 +1,16 @@
+{
+	"name": "Metacircle Bot",
+	"description": "Metacircle Telegram Bot",
+	"success_url": "/bot",
+	"env": {
+		"NODE_ENV": "prd",
+		"URL_HEROKU": "https://(REPLACE_THIS_BY_YOUR_APP_NAME).herokuapp.com"
+	},
+	"formation": {
+		"web": {
+			"quantity": 1,
+			"size": "free"
+		}
+	},
+	"image": "heroku/node"
+}
