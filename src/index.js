@@ -26,4 +26,8 @@ bot.command('contract', (ctx)=>{
     ctx.telegram.sendMessage(ctx.chat.id, 'Contract: 0x35f6fcdf952d24c09c74919ad9eba307b046de16')
 })
 
+bot.command('test', (ctx)=>{
+    ctx.telegram.sendMessage(ctx.chat.id, 'test')
+})
+
 bot.launch()
